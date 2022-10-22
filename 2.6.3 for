@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _2._6_цикл_for
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("введите количество выстрелов из револьвера по мишени");
+            Console.WriteLine("пули летят в цель");
+
+            for (int clipShot = 0; clipShot < 6; clipShot++)
+            {
+                Console.WriteLine(clipShot);
+            }
+
+        }
+    }
+}
